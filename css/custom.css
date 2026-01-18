@@ -6,3 +6,183 @@
     It will be loaded last, so you can override any other property.
     Also, it will never be updated. So if you inheritate a core template and just add here some CSS, you'll still benefit of all the updates
 */
+
+:root {
+  --nylint-primary: #35bdf2;
+  --nylint-accent: #f2e422;
+  --nylint-deep-blue: #18387f;
+  --nylint-offwhite: #e0ecf6;
+  --nylint-cream: #f2f0d5;
+  --nylint-red: #d64259;
+  --nylint-red-dark: #91353f;
+  --nylint-ink: #18161b;
+  --nylint-green: #194601;
+}
+
+body {
+  background-color: var(--nylint-offwhite);
+  color: var(--nylint-ink);
+}
+
+body .top-container {
+  background: var(--nylint-cream);
+  border-bottom: 3px solid var(--nylint-accent);
+}
+
+body .group-title-container {
+  background: transparent;
+}
+
+body .question-container {
+  border-bottom: 2px solid var(--nylint-accent);
+  box-shadow: 0 6px 18px rgba(24, 56, 127, 0.08);
+}
+
+body .answer-container,
+body .question-help-container {
+  border-color: rgba(24, 56, 127, 0.2);
+}
+
+body .navbar {
+  background-color: var(--nylint-deep-blue);
+  border-bottom: 4px solid var(--nylint-accent);
+}
+
+body .navbar .navbar-brand,
+body .navbar .navbar-brand:hover,
+body .navbar .navbar-brand:focus,
+body .navbar .navbar-nav > li > a {
+  color: var(--nylint-cream);
+}
+
+body .navbar .navbar-nav > li > a:hover,
+body .navbar .navbar-nav > li > a:focus {
+  color: var(--nylint-accent);
+}
+
+body a {
+  color: var(--nylint-deep-blue);
+}
+
+body a:hover,
+body a:focus {
+  color: var(--nylint-primary);
+}
+
+body .btn-primary,
+body .btn-primary:focus,
+body .btn-primary:active {
+  background-color: var(--nylint-primary);
+  border-color: var(--nylint-primary);
+  color: var(--nylint-ink);
+}
+
+body .btn-primary:hover {
+  background-color: var(--nylint-deep-blue);
+  border-color: var(--nylint-deep-blue);
+  color: var(--nylint-cream);
+}
+
+body .btn-success,
+body .btn-success:focus,
+body .btn-success:active {
+  background-color: var(--nylint-green);
+  border-color: var(--nylint-green);
+  color: var(--nylint-cream);
+}
+
+body .btn-success:hover {
+  background-color: #0f2b01;
+  border-color: #0f2b01;
+}
+
+body .btn-danger,
+body .btn-danger:focus,
+body .btn-danger:active {
+  background-color: var(--nylint-red);
+  border-color: var(--nylint-red);
+  color: var(--nylint-cream);
+}
+
+body .btn-danger:hover {
+  background-color: var(--nylint-red-dark);
+  border-color: var(--nylint-red-dark);
+}
+
+body .progress {
+  background-color: rgba(24, 56, 127, 0.12);
+}
+
+body .progress-bar {
+  background-color: var(--nylint-primary);
+}
+
+body .panel,
+body .list-group-item,
+body .well {
+  background-color: #ffffff;
+  border-color: rgba(24, 56, 127, 0.15);
+}
+
+body .list-group-item.active,
+body .list-group-item.active:hover,
+body .list-group-item.active:focus {
+  background-color: var(--nylint-deep-blue);
+  border-color: var(--nylint-deep-blue);
+  color: var(--nylint-cream);
+}
+
+body .badge {
+  background-color: var(--nylint-deep-blue);
+}
+
+body .alert-info {
+  background-color: rgba(53, 189, 242, 0.15);
+  border-color: rgba(53, 189, 242, 0.4);
+  color: var(--nylint-deep-blue);
+}
+
+body .alert-warning {
+  background-color: rgba(242, 228, 34, 0.2);
+  border-color: rgba(242, 228, 34, 0.6);
+  color: var(--nylint-ink);
+}
+
+body .alert-danger {
+  background-color: rgba(214, 66, 89, 0.2);
+  border-color: rgba(214, 66, 89, 0.6);
+  color: var(--nylint-red-dark);
+}
+
+body .text-info {
+  color: var(--nylint-deep-blue);
+}
+
+body .text-danger {
+  color: var(--nylint-red-dark);
+}
+
+body .ls-questionhelp:before {
+  color: var(--nylint-primary);
+}
+
+body .survey-welcome,
+body .survey-title,
+body .group-title,
+body .question-title {
+  color: var(--nylint-deep-blue);
+}
+
+body .footer {
+  background-color: var(--nylint-deep-blue);
+  color: var(--nylint-cream);
+}
+
+body .footer a {
+  color: var(--nylint-accent);
+}
+
+body .footer a:hover,
+body .footer a:focus {
+  color: var(--nylint-primary);
+}
