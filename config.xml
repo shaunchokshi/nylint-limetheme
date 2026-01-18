@@ -22,7 +22,7 @@
         <version>3.0</version>
         <apiVersion>3</apiVersion>
         <description><![CDATA[{{gT("Based on BootsWatch Themes:")}} <br><a href='https://bootswatch.com/3/'>{{gT("Visit Bootswatch page")}}</a> ]]></description>
-        <lastUpdate>2026-01-17 16:07:48</lastUpdate>
+        <lastUpdate>2026-01-18 03:35:51</lastUpdate>
         <extends>bootswatch</extends>
     </metadata>
 
